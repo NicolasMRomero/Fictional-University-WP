@@ -49,6 +49,7 @@ function university_post_types(){
         'show_in_rest' => true,
         'supports' => array(
             'title', 'editor',
+            'thumbnail'
         ),
         'public' => true,
         'has_archive' => false,
